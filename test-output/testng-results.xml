@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="0" total="8" passed="6" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-11T15:27:20 CEST" name="Suite" finished-at="2023-05-11T15:27:37 CEST" duration-ms="16684">
+    <groups>
+      <group name="AcceptanceTests">
+        <method signature="LandingPage_Tests.verifyHoverAddToCartID54()[pri:0, instance:testFramework.testClasses.LandingPage_Tests@7eecb5b8]" name="verifyHoverAddToCartID54" class="testFramework.testClasses.LandingPage_Tests"/>
+        <method signature="MyAccount_Tests.verifyMyAccountPageExists()[pri:0, instance:testFramework.testClasses.MyAccount_Tests@64b0598]" name="verifyMyAccountPageExists" class="testFramework.testClasses.MyAccount_Tests"/>
+      </group> <!-- AcceptanceTests -->
+    </groups>
+    <test started-at="2023-05-11T15:27:20 CEST" name="Landing Page Tests" finished-at="2023-05-11T15:27:31 CEST" duration-ms="10810">
+      <class name="testFramework.testClasses.LandingPage_Tests">
+        <test-method is-config="true" signature="pleaseWork()[pri:0, instance:testFramework.testClasses.LandingPage_Tests@7eecb5b8]" started-at="2023-05-11T15:27:20 CEST" name="pleaseWork" finished-at="2023-05-11T15:27:23 CEST" duration-ms="2813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pleaseWork -->
+        <test-method is-config="true" signature="goToCatalon()[pri:0, instance:testFramework.testClasses.LandingPage_Tests@7eecb5b8]" started-at="2023-05-11T15:27:23 CEST" name="goToCatalon" finished-at="2023-05-11T15:27:26 CEST" duration-ms="2859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToCatalon -->
+        <test-method signature="verifyHoverAddToCartID54()[pri:0, instance:testFramework.testClasses.LandingPage_Tests@7eecb5b8]" started-at="2023-05-11T15:27:26 CEST" name="verifyHoverAddToCartID54" finished-at="2023-05-11T15:27:27 CEST" duration-ms="1059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHoverAddToCartID54 -->
+        <test-method is-config="true" signature="goToCatalon()[pri:0, instance:testFramework.testClasses.LandingPage_Tests@7eecb5b8]" started-at="2023-05-11T15:27:27 CEST" name="goToCatalon" finished-at="2023-05-11T15:27:28 CEST" duration-ms="883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToCatalon -->
+        <test-method retried="true" signature="verifyTwoViewCart()[pri:0, instance:testFramework.testClasses.LandingPage_Tests@7eecb5b8]" started-at="2023-05-11T15:27:28 CEST" name="verifyTwoViewCart" finished-at="2023-05-11T15:27:29 CEST" duration-ms="842" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at testFramework.testClasses.LandingPage_Tests.verifyTwoViewCart(LandingPage_Tests.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTwoViewCart -->
+        <test-method is-config="true" signature="goToCatalon()[pri:0, instance:testFramework.testClasses.LandingPage_Tests@7eecb5b8]" started-at="2023-05-11T15:27:29 CEST" name="goToCatalon" finished-at="2023-05-11T15:27:29 CEST" duration-ms="886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToCatalon -->
+        <test-method signature="verifyTwoViewCart()[pri:0, instance:testFramework.testClasses.LandingPage_Tests@7eecb5b8]" started-at="2023-05-11T15:27:29 CEST" name="verifyTwoViewCart" finished-at="2023-05-11T15:27:30 CEST" duration-ms="855" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at testFramework.testClasses.LandingPage_Tests.verifyTwoViewCart(LandingPage_Tests.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTwoViewCart -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:testFramework.testClasses.LandingPage_Tests@7eecb5b8]" started-at="2023-05-11T15:27:31 CEST" name="closeDriver" finished-at="2023-05-11T15:27:31 CEST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- testFramework.testClasses.LandingPage_Tests -->
+    </test> <!-- Landing Page Tests -->
+    <test started-at="2023-05-11T15:27:20 CEST" name="My Account Tests" finished-at="2023-05-11T15:27:37 CEST" duration-ms="16684">
+      <class name="testFramework.testClasses.MyAccount_Tests">
+        <test-method is-config="true" signature="pleaseWork()[pri:0, instance:testFramework.testClasses.MyAccount_Tests@64b0598]" started-at="2023-05-11T15:27:20 CEST" name="pleaseWork" finished-at="2023-05-11T15:27:23 CEST" duration-ms="2813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pleaseWork -->
+        <test-method is-config="true" signature="goToMyAccountPage()[pri:0, instance:testFramework.testClasses.MyAccount_Tests@64b0598]" started-at="2023-05-11T15:27:23 CEST" name="goToMyAccountPage" finished-at="2023-05-11T15:27:27 CEST" duration-ms="3764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToMyAccountPage -->
+        <test-method signature="invalidLogIn(java.util.HashMap)[pri:0, instance:testFramework.testClasses.MyAccount_Tests@64b0598]" started-at="2023-05-11T15:27:27 CEST" name="invalidLogIn" data-provider="incorrectlogInCredentials" finished-at="2023-05-11T15:27:28 CEST" duration-ms="1139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Balanar23, username=Balanar}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogIn -->
+        <test-method is-config="true" signature="goToMyAccountPage()[pri:0, instance:testFramework.testClasses.MyAccount_Tests@64b0598]" started-at="2023-05-11T15:27:28 CEST" name="goToMyAccountPage" finished-at="2023-05-11T15:27:30 CEST" duration-ms="1627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToMyAccountPage -->
+        <test-method signature="invalidLogIn(java.util.HashMap)[pri:0, instance:testFramework.testClasses.MyAccount_Tests@64b0598]" started-at="2023-05-11T15:27:30 CEST" name="invalidLogIn" data-provider="incorrectlogInCredentials" finished-at="2023-05-11T15:27:31 CEST" duration-ms="1111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Mile28, username=Micko}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogIn -->
+        <test-method is-config="true" signature="goToMyAccountPage()[pri:0, instance:testFramework.testClasses.MyAccount_Tests@64b0598]" started-at="2023-05-11T15:27:31 CEST" name="goToMyAccountPage" finished-at="2023-05-11T15:27:32 CEST" duration-ms="1539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToMyAccountPage -->
+        <test-method signature="invalidLogIn(java.util.HashMap)[pri:0, instance:testFramework.testClasses.MyAccount_Tests@64b0598]" started-at="2023-05-11T15:27:32 CEST" name="invalidLogIn" data-provider="incorrectlogInCredentials" finished-at="2023-05-11T15:27:33 CEST" duration-ms="1005" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=PeraLera, username=Pera}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogIn -->
+        <test-method is-config="true" signature="goToMyAccountPage()[pri:0, instance:testFramework.testClasses.MyAccount_Tests@64b0598]" started-at="2023-05-11T15:27:33 CEST" name="goToMyAccountPage" finished-at="2023-05-11T15:27:35 CEST" duration-ms="1480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToMyAccountPage -->
+        <test-method signature="verifyMyAccountPageExists()[pri:0, instance:testFramework.testClasses.MyAccount_Tests@64b0598]" started-at="2023-05-11T15:27:35 CEST" name="verifyMyAccountPageExists" finished-at="2023-05-11T15:27:35 CEST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMyAccountPageExists -->
+        <test-method is-config="true" signature="goToMyAccountPage()[pri:0, instance:testFramework.testClasses.MyAccount_Tests@64b0598]" started-at="2023-05-11T15:27:35 CEST" name="goToMyAccountPage" finished-at="2023-05-11T15:27:36 CEST" duration-ms="1558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToMyAccountPage -->
+        <test-method signature="verifyRememberMeCheckbox()[pri:0, instance:testFramework.testClasses.MyAccount_Tests@64b0598]" started-at="2023-05-11T15:27:36 CEST" name="verifyRememberMeCheckbox" finished-at="2023-05-11T15:27:37 CEST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRememberMeCheckbox -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:testFramework.testClasses.MyAccount_Tests@64b0598]" started-at="2023-05-11T15:27:37 CEST" name="closeDriver" finished-at="2023-05-11T15:27:37 CEST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- testFramework.testClasses.MyAccount_Tests -->
+    </test> <!-- My Account Tests -->
+  </suite> <!-- Suite -->
+</testng-results>
